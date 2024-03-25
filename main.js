@@ -62,7 +62,7 @@ const posts = [
 const postContainer = document.getElementById('container')
 //Usare foreach per ogni pubblicazione per creare ogni singola pubblicazione
 
-every.foreach(post => {
+posts.forEach(post => {
     const postHtml =
     `
     <div class="post">
@@ -96,6 +96,9 @@ every.foreach(post => {
         </div>            
     </div>
     `;
+
+    //add html al container
+    postContainer.innerHTML += postHtml;
 })
 
 
