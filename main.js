@@ -57,5 +57,11 @@ const posts = [
 ];
 
 // Milestone 1 - Prendendo come riferimento il layout di esempio presente nell'html, stampiamo i post del nostro feed.
+
+//prendere il contaimner sul html
+const everyPostContainer = document.getElementById('container')
+//Usare foreach per ogni pubblicazione per creare ogni singola pubblicazione
+
+
 // Milestone 2 - Se clicchiamo sul tasto "Mi Piace" cambiamo il colore al testo del bottone e incrementiamo il counter dei likes relativo.
 // Salviamo in un secondo array gli id dei post ai quali abbiamo messo il like.
